@@ -6,6 +6,7 @@ import AddVoter from "./voters/add";
 import VoterList from "./voters/list";
 import Candidates from "./candidates";
 import AddCandidates from "./candidates/add";
+import CandidateList from "./candidates/list";
 
 const MainApp = () => {
   return (
@@ -21,6 +22,7 @@ const MainApp = () => {
 
         <Route path="candidates" element={<Candidates />}>
           <Route path="add" element={<AddCandidates />} />
+          <Route path="list" element={<CandidateList />} />
         </Route>
       </Routes>
     </div>
