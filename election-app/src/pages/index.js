@@ -28,7 +28,7 @@ const MainApp = () => {
           <Route path="list" element={<CandidateList />} />
         </Route>
 
-        <Route path="position" element={<Positions />}>
+        <Route path="positions" element={<Positions />}>
           <Route path="add" element={<AddPositions />} />
           <Route path="list" element={<PositionsList />} />
         </Route>
