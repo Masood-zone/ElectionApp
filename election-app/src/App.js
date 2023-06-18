@@ -1,10 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
 import MainApp from "./pages";
+import Header from "./components/header";
 
 function App() {
   return (
     <div>
-      <h1>Election Application</h1>
+      <Header title="Election Application" />
       <BrowserRouter basename="/">
         <MainApp />
       </BrowserRouter>
