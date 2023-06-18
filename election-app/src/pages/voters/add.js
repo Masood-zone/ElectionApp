@@ -12,17 +12,14 @@ const AddVoter = () => {
     password: "",
   });
 
-  const handleClick = () => {
+  const handleClick = (e) => {
+    e.preventDefault();
     console.log(state);
   };
 
   return (
     <Card title="Student Information">
-      <form
-        onSubmit={() => {
-          handleClick();
-        }}
-      >
+      <form>
         <Input
           name="studentId"
           id="studentId"
@@ -36,6 +33,7 @@ const AddVoter = () => {
         />
         <Input
           label="studentName"
+          name="studentName"
           id="studentName"
           type="text"
           title="Student Name"
@@ -48,6 +46,7 @@ const AddVoter = () => {
 
         <Input
           label="email"
+          name="email"
           id="email"
           type="email"
           title="Email"
@@ -60,6 +59,7 @@ const AddVoter = () => {
 
         <Input
           label="telephone"
+          name="telephone"
           id="telephone"
           type="tel"
           title="Telephone"
@@ -72,6 +72,7 @@ const AddVoter = () => {
 
         <Input
           label="password"
+          name="password"
           id="password"
           type="password"
           title="Password"
@@ -82,7 +83,13 @@ const AddVoter = () => {
           }}
         />
 
-        <Button type="submit" title="Submit" />
+        <Button
+          type="submit"
+          title="Submit"
+          onClick={(e) => {
+            handleClick(e);
+          }}
+        />
       </form>
     </Card>
   );

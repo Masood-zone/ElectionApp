@@ -11,16 +11,13 @@ const AddCandidates = () => {
     positions: "",
   });
 
-  const handleClick = () => {
+  const handleClick = (e) => {
+    e.preventDefault();
     console.log(state);
   };
   return (
     <div>
-      <form
-        onSubmit={() => {
-          handleClick();
-        }}
-      >
+      <form>
         <Card title="Add Candidates">
           <Input
             name="candidateName"
@@ -67,7 +64,13 @@ const AddCandidates = () => {
             }}
           />
 
-          <Button type="submit" title="Submit" />
+          <Button
+            type="submit"
+            title="Submit"
+            onClick={(e) => {
+              handleClick(e);
+            }}
+          />
         </Card>
       </form>
     </div>

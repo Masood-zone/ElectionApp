@@ -8,16 +8,13 @@ const AddPositions = () => {
     positionName: "",
     description: "",
   });
-  const handleClick = () => {
+  const handleClick = (e) => {
+    e.preventDefault();
     console.log(state);
   };
 
   return (
-    <form
-      onSubmit={() => {
-        handleClick();
-      }}
-    >
+    <form>
       <Card title="Add Positions">
         <Input
           type="text"
@@ -41,7 +38,13 @@ const AddPositions = () => {
             });
           }}
         />
-        <Button type="submit" title="Submit" />
+        <Button
+          type="submit"
+          title="Submit"
+          onClick={(e) => {
+            handleClick(e);
+          }}
+        />
       </Card>
     </form>
   );
