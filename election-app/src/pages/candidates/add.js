@@ -8,14 +8,14 @@ const AddCandidates = () => {
       <form>
         <Card title="Add Candidates">
           <Input
-            name="candidateId"
+            name="candidateName"
             type="text"
             id="candidateId"
-            title="Candidate ID"
+            title="Candidate Name"
           />
-          <Input name="telephone" type="tel" title="Telephone" />
-          <Input name="profile" type="file" title="Profile" />
-          <Input name="position" type="position" title="Postion" />
+          <Input name="telephone" id="telephone" type="tel" title="Telephone" />
+          <Input name="profile" id="profile" type="file" title="Profile" />
+          <Input name="Postion" id="positionId" type="text" title="Position" />
         </Card>
       </form>
     </div>
