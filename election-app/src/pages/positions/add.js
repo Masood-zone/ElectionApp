@@ -8,9 +8,16 @@ const AddPositions = () => {
     positionName: "",
     description: "",
   });
+  const handleClick = () => {
+    console.log(state);
+  };
 
   return (
-    <form>
+    <form
+      onSubmit={() => {
+        handleClick();
+      }}
+    >
       <Card title="Add Positions">
         <Input
           type="text"
