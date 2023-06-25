@@ -1,15 +1,17 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Dashboard from "./dashboard";
-import Voters from "./voters";
-import AddVoter from "./voters/add";
-import VoterList from "./voters/list";
-import Candidates from "./candidates";
-import AddCandidates from "./candidates/add";
-import CandidateList from "./candidates/list";
-import Positions from "./positions";
-import AddPositions from "./positions/add";
-import PositionsList from "./positions/list";
+import Dashboard from "./Dashboard";
+import Voters from "./Voters";
+import AddVoter from "./Voters/add";
+import VoterList from "./Voters/list";
+
+import Candidates from "./Candidates/index";
+import AddCandidates from "./Candidates/add";
+import CandidateList from "./Candidates/list";
+
+import Positions from "./Positions";
+import AddPositions from "./Positions/add";
+import PositionsList from "./Positions/list";
 
 const MainApp = () => {
   return (
