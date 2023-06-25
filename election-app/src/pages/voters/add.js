@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Input from "../../components/input";
 import Button from "../../components/button";
 import Card from "../../components/card";
+import { SaveVoter } from "../../services/voters";
 
 const AddVoter = () => {
   const [state, setState] = useState({
@@ -12,9 +13,10 @@ const AddVoter = () => {
     password: "",
   });
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    console.log(state);
+  const handleClick = async () => {
+    // console.log(state);
+    const res = await SaveVoter(state);
+    console.log(res);
   };
 
   return (
@@ -83,13 +85,7 @@ const AddVoter = () => {
           }}
         />
 
-        <Button
-          type="submit"
-          title="Submit"
-          onClick={(e) => {
-            handleClick(e);
-          }}
-        />
+        <Button type="button" title="Submit" onClick={handleClick} />
       </form>
     </Card>
   );
