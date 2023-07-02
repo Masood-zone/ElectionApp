@@ -1,17 +1,18 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Dashboard from "./Dashboard";
-import Voters from "./Voters";
-import AddVoter from "./Voters/add";
-import VoterList from "./Voters/list";
-
-import Candidates from "./Candidates/index";
-import AddCandidates from "./Candidates/add";
-import CandidateList from "./Candidates/list";
-
-import Positions from "./Positions";
-import AddPositions from "./Positions/add";
-import PositionsList from "./Positions/list";
+import Dashboard from "./dashboard";
+import Voters from "./voters";
+import AddVoter from "./voters/add";
+import VoterList from "./voters/list";
+import Candidates from "./candidates";
+import AddCandidates from "./candidates/add";
+import CandidateList from "./candidates/list";
+import EditCandidate from "./candidates/edit";
+import EditVoter from "./voters/edit";
+import Position from "./positions";
+import AddPosition from "./positions/add";
+import PositionsList from "./positions/list";
+import EditPosition from "./positions/edit";
 
 const MainApp = () => {
   return (
@@ -22,16 +23,19 @@ const MainApp = () => {
 
         <Route path="voters" element={<Voters />}>
           <Route path="add" element={<AddVoter />} />
+          <Route path="edit/:studentId" element={<EditVoter />} />
           <Route path="list" element={<VoterList />} />
         </Route>
 
         <Route path="candidates" element={<Candidates />}>
           <Route path="add" element={<AddCandidates />} />
+          <Route path="edit/:id" element={<EditCandidate />} />
           <Route path="list" element={<CandidateList />} />
         </Route>
 
-        <Route path="positions" element={<Positions />}>
-          <Route path="add" element={<AddPositions />} />
+        <Route path="positions" element={<Position />}>
+          <Route path="add" element={<AddPosition />} />
+          <Route path="edit/:id" element={<EditPosition />} />
           <Route path="list" element={<PositionsList />} />
         </Route>
       </Routes>

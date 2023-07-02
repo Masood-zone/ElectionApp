@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Input from "../../components/input";
 import Button from "../../components/button";
 import Card from "../../components/card";
-import { SaveVoter } from "../../services/voters";
-import { toast } from "react-toastify";
-import { useNavigate } from "react-router-dom";
+import { GetVoterByStudentId, SaveVoter } from "../../services/voters";
+import { useNavigate, useParams } from "react-router-dom";
 
-const AddVoter = () => {
+const EditVoter = () => {
   const navigate = useNavigate();
+  const { studentId } = useParams();
   const [state, setState] = useState({
     studentId: "",
     studentName: "",
@@ -16,25 +16,39 @@ const AddVoter = () => {
     password: "",
   });
 
+  useEffect(() => {
+    const LoadStudent = async () => {
+      const student = await GetVoterByStudentId(studentId);
+      const voter = student.data;
+      console.log(voter);
+      setState((prevState) => {
+        return {
+          ...prevState,
+          studentId: voter.studentId,
+          studentName: voter.studentName,
+          email: voter.email,
+          password: voter.password,
+          telephone: voter.telephone,
+        };
+      });
+    };
+    LoadStudent();
+  }, [studentId]);
+
   const handleClick = async () => {
     // console.log(state);
     const res = await SaveVoter(state);
-    console.log(res);
-    if (res.status === 201) {
-      toast.success("Voter saved successfully");
-      navigate("/voters/list");
-    } else {
-      toast.error("Voter not saved!");
-    }
-    console.log(res);
+    navigate("/voters/list");
+    return res;
   };
 
   return (
-    <Card title="Student Information">
+    <Card title="Edit Student Information">
       <form>
         <Input
           name="studentId"
           id="studentId"
+          value={state.studentId}
           type="text"
           title="Student ID"
           onChange={(e) => {
@@ -47,6 +61,7 @@ const AddVoter = () => {
           label="studentName"
           name="studentName"
           id="studentName"
+          value={state.studentName}
           type="text"
           title="Student Name"
           onChange={(e) => {
@@ -60,6 +75,7 @@ const AddVoter = () => {
           label="email"
           name="email"
           id="email"
+          value={state.email}
           type="email"
           title="Email"
           onChange={(e) => {
@@ -73,6 +89,7 @@ const AddVoter = () => {
           label="telephone"
           name="telephone"
           id="telephone"
+          value={state.telephone}
           type="tel"
           title="Telephone"
           onChange={(e) => {
@@ -86,6 +103,7 @@ const AddVoter = () => {
           label="password"
           name="password"
           id="password"
+          value={state.password}
           type="password"
           title="Password"
           onChange={(e) => {
@@ -95,10 +113,10 @@ const AddVoter = () => {
           }}
         />
 
-        <Button type="button" title="Submit" onClick={handleClick} />
+        <Button type="button" title="Update" onClick={handleClick} />
       </form>
     </Card>
   );
 };
 
-export default AddVoter;
+export default EditVoter;

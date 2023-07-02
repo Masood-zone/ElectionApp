@@ -3,8 +3,11 @@ import Card from "../../components/card";
 import Input from "../../components/input";
 import Button from "../../components/button";
 import { SavePosition } from "../../services/positions";
+import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 const AddPositions = () => {
+  const navigate = useNavigate();
   const [state, setState] = useState({
     positionName: "",
     description: "",
@@ -14,6 +17,12 @@ const AddPositions = () => {
     // console.log(state);
     const res = await SavePosition(state);
     console.log(res);
+    if (res.status === 201) {
+      toast.success("Position successfully saved!");
+      navigate("/positions/list");
+    } else {
+      toast.error("Position not saved!");
+    }
     return res;
   };
 

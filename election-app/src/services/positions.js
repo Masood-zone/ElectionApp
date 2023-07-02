@@ -11,12 +11,40 @@ export const GetPositions = async () => {
   }
 };
 
+export const GetPositionById = async (id) => {
+  try {
+    const res = await axios.get(`${BASE_URL}/positions/?${id}`);
+    return res;
+  } catch (error) {
+    console.log(error.message);
+  }
+};
 export const SavePosition = async (data) => {
   try {
     const response = await axios.post(`${BASE_URL}/positions/`, data, {
       withCredentials: false,
     });
     return response;
+  } catch (error) {
+    console.log(error.message);
+  }
+};
+
+export const DeletePosition = async (id) => {
+  try {
+    const res = await axios.delete(`${BASE_URL}/positions/${id}`, {
+      withCredentials: false,
+    });
+    return res;
+  } catch (error) {
+    console.log(error.message);
+  }
+};
+
+export const UpdatePosition = async (id) => {
+  try {
+    const res = await axios.patch(`${BASE_URL}/positions/${id}`);
+    return res;
   } catch (error) {
     console.log(error.message);
   }

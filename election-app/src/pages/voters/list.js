@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { DeleteVoter, GetVoters } from "../../services/voters";
 import { HeaderSmall } from "../../components/header";
+import { useNavigate } from "react-router-dom";
 
 const VoterList = () => {
+  const navigate = useNavigate();
   const [voters, setVoters] = useState([]);
   useEffect(() => {
     LoadVoters();
@@ -21,7 +23,7 @@ const VoterList = () => {
   };
   return (
     <div>
-      <HeaderSmall title="Voter List" />
+      <HeaderSmall title="Voters List" />
       <table
         className="table-bordered"
         style={{ margin: "20px auto", width: "850px" }}
@@ -33,6 +35,7 @@ const VoterList = () => {
             <th scope="col">Email</th>
             <th scope="col">Telephone</th>
             <th scope="col">Exempt</th>
+            <th scope="col">Update</th>
           </tr>
         </thead>
         <tbody>
@@ -50,6 +53,17 @@ const VoterList = () => {
                     onClick={() => handleDelete(voter?.studentId)}
                   >
                     Delete
+                  </button>
+                </td>
+                <td>
+                  <button
+                    type="button"
+                    className="btn btn-success"
+                    onClick={() => {
+                      navigate(`/voters/edit/${voter?.studentId}`);
+                    }}
+                  >
+                    Edit
                   </button>
                 </td>
               </tr>
