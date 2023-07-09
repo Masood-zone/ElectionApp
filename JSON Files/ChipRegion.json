@@ -1,0 +1,885 @@
+{
+    "country": {
+        "name": "ghana",
+        "code": "",
+        "desc": "",
+        "regions": [
+            {
+                "name": "upper east",
+                "code": "",
+                "desc": "",
+                "districts": [
+                    {
+                        "name": "builsa south",
+                        "code": "",
+                        "desc": "builsa south",
+                        "towms": [
+                            {
+                                "name": "bachongsa",
+                                "code": "R0101",
+                                "desc": "",
+                                "areas": [
+                                    {
+                                        "name": "BACHONGSA PRIMARY SCHOOL",
+                                        "code": "R010101",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "CPB AT NYANBIISA",
+                                        "code": "R010102",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "doninga",
+                                "code": "R0102",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "DONINGA PRIMARY SCHOOL",
+                                        "code": "R010201",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "DONINGA MKT SQ",
+                                        "code": "R010202",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT BANYANGSA",
+                                        "code": "R010203",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "WUPEENSA PRIM SCH",
+                                        "code": "R010204",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT YIPAALA",
+                                        "code": "R010205",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "kanjarga central",
+                                "code": "R0103",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "KANJARGA PRIMARY SCHOOL",
+                                        "code": "R010301",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "KANJARGA MARKET SQUARE",
+                                        "code": "R010302",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "MUSIDEM PRIMARY SCHOOL",
+                                        "code": "R010303",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "CPB AT KUNYINGSA",
+                                        "code": "R010304",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "samsa/zogsa",
+                                "code": "R0104",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "KANJARGA JHS",
+                                        "code": "R010401",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "jinningsa",
+                                "code": "R0105",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "JINNINGSA PRIMARY SCHOOL",
+                                        "code": "R010501",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "luisa",
+                                "code": "R0106",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "C P B AT LUISA",
+                                        "code": "R010601",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT VUUNDEM",
+                                        "code": "R010602",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B PIISA",
+                                        "code": "R010603",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT LUISA GOLUK",
+                                        "code": "R010604",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "daburinsa",
+                                "code": "R0107",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "NYANDEMA PRIMARY SCHOOL",
+                                        "code": "R010701",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT KALAASA",
+                                        "code": "R010702",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "gbedema central",
+                                "code": "R0108",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "GBEDEMA PRIMARY SCHOOL",
+                                        "code": "R010801",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "KUNKWAK SHEPHERED SCHOOL",
+                                        "code": "R010802",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "ZENG PRIMARY SCHOOL",
+                                        "code": "R010803",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "jagsa",
+                                "code": "R0109",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "JAGSA PRIMARY SCHOOL",
+                                        "code": "R010901",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "BALERINSA PRIMARY SCHOOL",
+                                        "code": "R010902",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "GARIBENSA PRIMARY SCHOOL",
+                                        "code": "R010903",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "fumbisi central",
+                                "code": "R0110",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "FUMBISI MARKET SQUARE",
+                                        "code": "R011001",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "FUMBISI TOWN COUNCIL HALL",
+                                        "code": "R011002",
+                                        "desc": "FUMBISI FIRE STATION"
+                                    },
+                                    {
+                                        "name": "",
+                                        "code": "R011003",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "baasa",
+                                "code": "R0111",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "BAASA PRIMARY SCHOOL",
+                                        "code": "R011101",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "CPB AT PUING",
+                                        "code": "R011102",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "pentengsa",
+                                "code": "R0112",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "CPB AT BACHEESA",
+                                        "code": "R011201",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "FUMBISI PRIMARY SCH",
+                                        "code": "R011202",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "kasiesa",
+                                "code": "R0113",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "KASIESA PRIMARY SCHOOL",
+                                        "code": "R011301",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "FUMBISI ENG/ARABIC JHS",
+                                        "code": "R011302",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT LONGMIISA",
+                                        "code": "R011303",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "CPB AT YEMONANG",
+                                        "code": "R011304",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "weisi",
+                                "code": "R0114",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "WIESI PRIMARY SCHOOL",
+                                        "code": "R011401",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT YIPAALA",
+                                        "code": "R011402",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT JINIENSA",
+                                        "code": "R011403",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "gbedembilisi",
+                                "code": "R0115",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "GBEDEMBILISI PRIMARY SCHOOL",
+                                        "code": "R011501",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT ATUNING GUUK",
+                                        "code": "R011502",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "naadem",
+                                "code": "R0116",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "NAADEM PRIMARY SCHOOL",
+                                        "code": "R011601",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT LUISA",
+                                        "code": "R011602",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT BATUISA",
+                                        "code": "R011603",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "BUTERISA PRIMARY SCH",
+                                        "code": "R011604",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT SUIK",
+                                        "code": "R011605",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "uwasi",
+                                "code": "R0117",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "UWASI PRIMARY SCHOOL",
+                                        "code": "R011701",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "UWASI MARKET SQUARE",
+                                        "code": "R011702",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "TUEDEM PRIMARY SCHOOL",
+                                        "code": "R011703",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT ABAA-YERI",
+                                        "code": "R011704",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "chansa",
+                                "code": "R0118",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "CHANSA PRIMARY SCHOOL",
+                                        "code": "R011801",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "CHANSA JHS",
+                                        "code": "R011802",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "zamsa",
+                                "code": "R0120",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "ZAMSA PRIMARY SCHOOL",
+                                        "code": "R012001",
+                                        "desc": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "builsa north",
+                        "code": "",
+                        "desc": "builsa north",
+                        "towms": [
+                            {
+                                "name": "kaasa/zogsa",
+                                "code": "R0201",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "CPB AT ZOGSA",
+                                        "code": "R020101",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "KAASA PRIMARY SCHOOL",
+                                        "code": "R020102",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "YIKPIENG PRIMARY SCHOOL",
+                                        "code": "R020103",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "zundem community",
+                                "code": "R0202",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "ZUNDEM PRIMARY SCH.",
+                                        "code": "R020201",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "siniensi",
+                                "code": "R0203",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "SINIENSI PRIMARY SCHOOL",
+                                        "code": "R020301",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "SINIENSI  JHS",
+                                        "code": "R020302",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT DANWARINSA",
+                                        "code": "R020303",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "CPB AT NAANSA",
+                                        "code": "R020304",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "kpalinsa",
+                                "code": "R0204",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "TANKANGSA PRIMARY SCHOOL",
+                                        "code": "R020401",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "CPB AT ZUEDEM",
+                                        "code": "R020402",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "KPALINSA  PRIM SCH",
+                                        "code": "R020402",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "zaring/bulba",
+                                "code": "R0205",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "ZARING PRIMARY SCHOOL",
+                                        "code": "R020501",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "CPB AT BULBA",
+                                        "code": "R020502",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "kpikpaluk",
+                                "code": "R0206",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "KPIKPALUK MARKET SQUARE",
+                                        "code": "R020601",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "banyangsa/gaadem",
+                                "code": "R0207",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "KADEMA PRIMARY SCHOOL",
+                                        "code": "R020701",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT GUUTA",
+                                        "code": "R020702",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "sinyangsa",
+                                "code": "R0208",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "SINYANGSA JHS",
+                                        "code": "R020801",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "MUTEENSA PRIMARY SCHOOL",
+                                        "code": "R020802",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "goldem/badomsa",
+                                "code": "R0209",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "CPB AT ALOGAAB",
+                                        "code": "R020901",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "SINYANGSA PRIMARY SCHOOL",
+                                        "code": "R020902",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "yisobsa/wiaga",
+                                "code": "R0210",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "WIAGA MARKET SQUARE",
+                                        "code": "R021001",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "ST. MARTINS JHS",
+                                        "code": "R021002",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "KPANDEMA PRIMARY SCHOOL",
+                                        "code": "R021003",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT GUUTA TUIK",
+                                        "code": "R021004",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "chok",
+                                "code": "R0211",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "CHIOK PRIMARY SCHOOL",
+                                        "code": "R021101",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "CPB AT ATUDIOK",
+                                        "code": "R021102",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "wabilinsa",
+                                "code": "R0212",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "WABILINSA PRIMARY SCHOOL",
+                                        "code": "R021201",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "longsa",
+                                "code": "R0213",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "LONGSA K.G",
+                                        "code": "R021301",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "baandem",
+                                "code": "R0214",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "BANDEMA PRIMARY SCHOOL",
+                                        "code": "R021401",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "yimonsa",
+                                "code": "R0215",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "YIMONSA K.G",
+                                        "code": "R021501",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "farinsa",
+                                "code": "R0216",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "FARINSA PRIMARY SCHOOL",
+                                        "code": "R021601",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "suwarinsa",
+                                "code": "R0217",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "OLD PRIMARY SCHOOL",
+                                        "code": "R021701",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "balansa",
+                                "code": "R0218",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "AYIETA JHS",
+                                        "code": "R021801",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "BALANSA PRIMARY SCHOOL",
+                                        "code": "R021802",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "daborinsa",
+                                "code": "R0219",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "CPB AT DABORINSA",
+                                        "code": "R021901",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "CPB AT KANDEMA",
+                                        "code": "R021902",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "CPB AT AKURA-YERI",
+                                        "code": "R021903",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "nyansa/fiisa",
+                                "code": "R0220",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "ANANKUM PRIMARY SCHOOL",
+                                        "code": "R022001",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "NYAANSA PRIMARY SCH",
+                                        "code": "R022002",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "abil-yeri",
+                                "code": "R0221",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "SANDEMA LOCAL COUNCIL HALL",
+                                        "code": "R022101",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "SANDEMA COMMUNITY CENTRE",
+                                        "code": "R022102",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "ENG/ARABIC JHS",
+                                        "code": "R022103",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "ENG/ARABIC PRIMARY SCH",
+                                        "code": "R022104",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "SANDEMA TRADITIONAL COURT",
+                                        "code": "R022105A",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "SANDEMA TRADITIONAL COURT",
+                                        "code": "R022105B",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "awusu-yeri & achog-yeri",
+                                "code": "R0222",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "CPB AT AWUSU-YERI and ACHOG-YERI",
+                                        "code": "R022201",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "kobdema",
+                                "code": "R0223",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "ANANKUM JHS",
+                                        "code": "R022301",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "CPB AT ALIENG - DUOB",
+                                        "code": "R022302",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "kalijiisa",
+                                "code": "R0224",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "KALIJIISA PRIMARY SCH",
+                                        "code": "R022401",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "KALIJIISA CO-OPERATIVE CENTRE",
+                                        "code": "R022402",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "bilinsa",
+                                "code": "R0225",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "AFOKO PRIMARY SCHOOL",
+                                        "code": "R022401",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "SANDEMA SEC TECH",
+                                        "code": "R022502",
+                                        "desc": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "kori",
+                                "code": "R0226",
+                                "desc": "",
+                                "areas:": [
+                                    {
+                                        "name": "KORI PRIMARY SCHOOL",
+                                        "code": "R022601",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "AKAG-YERI PRIMARY SCH.",
+                                        "code": "R022602",
+                                        "desc": ""
+                                    },
+                                    {
+                                        "name": "C P B AT KORI-KANAANSA",
+                                        "code": "R022603",
+                                        "desc": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
